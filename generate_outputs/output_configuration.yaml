@@ -1,0 +1,12 @@
+# Output set
+# This sections lists each of the sets of outputs that can be produced using the code. The design is:
+# output_sets:
+#   <name of set>:
+#     - <list of required outputs>
+set_1:
+  - payments
+  - stratification
+set_2:
+  - payments
+  - stratification
+  - report

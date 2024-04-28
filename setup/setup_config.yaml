@@ -1,0 +1,5 @@
+# List the folders that must be created if they don't exist
+required_repo_folders:
+  - local_inputs
+  - local_data
+  - local_outputs

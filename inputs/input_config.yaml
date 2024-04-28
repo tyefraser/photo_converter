@@ -1,0 +1,27 @@
+# Repo files
+existing_pool:
+  source_type: repo_file_df
+  from_folder: repo_folder
+  file_name: complete_loan_list.xlsx
+  to_folder: local_inputs
+  sheet_name: Sheet1
+
+new_loans:
+  source_type: repo_file_df
+  from_folder: repo_folder/additions
+  file_name: new_loans.xlsx
+  to_folder: local_inputs
+  sheet_name: Sheet1
+
+writeoffs:
+  source_type: repo_file_df
+  from_folder: repo_folder
+  file_name: write_offs.xlsx
+  to_folder: local_inputs
+  sheet_name: Sheet1
+
+stratification_template:
+  source_type: repo_file
+  from_folder: repo_folder/templates
+  file_name: stratification_template.xlsx
+  to_folder: local_inputs
